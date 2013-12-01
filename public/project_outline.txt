@@ -1,0 +1,31 @@
+Posts
+	-> title
+	-> body
+	-> category
+	-> tags
+	-> status
+
+Categories
+	-> title
+
+Tags
+	-> title
+
+Albums
+	-> title 
+	-> description (optional)
+	-> images
+	-> status
+	
+Images
+	-> image_url
+	-> title
+	-> description (optional)
+	-> date
+	-> status
+	-> tag (optional)
+
+Users
+	-> email
+	-> username
+	-> password
