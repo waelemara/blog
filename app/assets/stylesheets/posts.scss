@@ -1,0 +1,55 @@
+
+$include-html-classes: false;
+@import "foundation_and_overrides";
+
+.posts{
+	.post{
+		border-bottom:solid 1px #BCC6C2;
+		border-left:solid 1px #BCC6C2;
+		padding: emCalc(10px);
+		&:hover{
+			//background-color : #D1DCD8;
+			border-left:solid 3px #BCC6C2;
+		};
+		
+		h3{
+			a {
+				text-decoration:underline;
+			}
+		}
+		
+		.date{	
+			margin-left: emCalc(10px);
+			border :1px solid;
+		    border-radius: emCalc(70px);
+			height:emCalc(70px);
+			width:emCalc(70px);
+			.day-month{
+				height:emCalc(20px);
+				display:block;
+				margin-top: emCalc(15px);
+				width:100%;
+				text-align:center;
+				border-bottom:1px solid;
+			}
+			.year{
+				margin-top:emCalc(5px);
+				width:100%;
+				text-align:center;
+				display:block;
+			}
+		}
+		
+		.tags{
+			span{
+				border:1px solid;
+				border-radius: emCalc(5px);
+				padding: emCalc(2px);
+				background-color : #BCC6C2;
+				&:hover{
+					background-color:#A9B2AF;
+				};
+			}
+		}
+	}	
+}

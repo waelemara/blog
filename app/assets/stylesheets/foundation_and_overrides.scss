@@ -1254,14 +1254,14 @@ $default-float: left;
 //
 
 // Background color for the top bar
-
-// $topbar-bg-color: #111;
-// $topbar-bg: $topbar-bg-color;
+//#eaeaea
+$topbar-bg-color: #eaeaea !default;
+$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 
-// $topbar-height: 45px;
-// $topbar-margin-bottom: 0;
+$topbar-height: 45px;
+$topbar-margin-bottom: emCalc(30px);
 
 // Control Input height for top bar
 
@@ -1271,6 +1271,8 @@ $default-float: left;
 
 // $topbar-title-weight: bold;
 // $topbar-title-font-size: em-calc(17);
+
+
 
 // Style the top bar dropdown elements
 
@@ -1283,7 +1285,7 @@ $default-float: left;
 
 // Set the link colors and styles for top-level nav
 
-// $topbar-link-color: #fff;
+$topbar-link-color: #17996B;
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
 // $topbar-link-weight: bold;
@@ -1323,5 +1325,12 @@ $default-float: left;
 
 // $topbar-sticky-class: ".sticky";
 // $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
+
+//Overrides
+.full-width{
+	.row{
+		width:100%;
+	}
+}
 
 @import 'foundation';

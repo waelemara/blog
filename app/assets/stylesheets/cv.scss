@@ -1,0 +1,22 @@
+
+$include-html-classes: false;
+@import "foundation_and_overrides";
+
+.download-cv{
+	float:right;
+}
+
+.employment{
+	.item{
+		margin : emCalc(20px);
+		padding-left:emCalc(20px);
+	}
+}
+
+.technical-experience{
+	.item{
+		margin : emCalc(20px);
+		padding-left:emCalc(20px);
+		
+	}
+}

@@ -1,1 +1,28 @@
-this is posts home page
+<%= page_title "Wael Emara | Posts" %>
+
+<div class="posts">
+	<% @posts.each do|post| %>
+	<div class="post row">
+		<div class="large-12 column">
+			<div class="row">
+				<div class="date large-2 left">
+					<span class="day-month"><%= post.created_at.strftime("%d %b")%></span>
+					<span class="year"><%= post.created_at.strftime("%Y")%></span>
+				</div>
+				<h3 class="right large-10"><%= link_to  post.title , post_path(post) %></h3>
+			</div>
+			<div class="row">
+				<div class="left"><%= simple_format post.description %></div>
+			</div>
+			<div class="row">
+				<div class="tags left">
+					<%=  post.tag.any?? 'Tags :' : '' %>
+					<% post.tag.each do |tag| %>
+					<span> <%= tag.name%> </span>
+					<% end%>
+				</div>
+			</div>
+		</div>
+	</div>
+	<% end %>
+</div>
