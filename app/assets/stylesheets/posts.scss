@@ -39,17 +39,14 @@ $include-html-classes: false;
 				display:block;
 			}
 		}
-		
-		.tags{
-			span{
-				border:1px solid;
-				border-radius: emCalc(5px);
-				padding: emCalc(2px);
-				background-color : #BCC6C2;
-				&:hover{
-					background-color:#A9B2AF;
-				};
-			}
-		}
 	}	
+}
+
+
+.new-post{
+	form{
+		.button{
+			margin-top : emCalc(10px);
+		}	
+	}
 }

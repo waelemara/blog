@@ -18,7 +18,10 @@
 				<div class="tags left">
 					<%=  post.tag.any?? 'Tags :' : '' %>
 					<% post.tag.each do |tag| %>
-					<span> <%= tag.name%> </span>
+						<span> <%= link_to tag.name %></span>
+						<% if tag.id != post.tag.last.id %>
+							•
+						<% end%>
 					<% end%>
 				</div>
 			</div>

@@ -4,4 +4,4 @@ written in ruby on rails (obviously :) )
 
 I'm trying to learn ruby on rails through building this blog
 
-you can find this blog actually running in here http://waelemara.herokuapp.com/
+you can find this blog actually running in here http://waelemara.herokuapp.com
