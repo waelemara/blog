@@ -4,12 +4,10 @@ $include-html-classes: false;
 
 .posts{
 	.post{
-		border-bottom:solid 1px #BCC6C2;
-		border-left:solid 1px #BCC6C2;
 		padding: emCalc(10px);
 		&:hover{
 			//background-color : #D1DCD8;
-			border-left:solid 3px #BCC6C2;
+			//border-left:solid 3px #BCC6C2;
 		};
 		
 		h3{
@@ -17,7 +15,8 @@ $include-html-classes: false;
 				text-decoration:underline;
 			}
 		}
-		
+
+/*		
 		.date{	
 			margin-left: emCalc(10px);
 			border :1px solid;
@@ -39,6 +38,13 @@ $include-html-classes: false;
 				display:block;
 			}
 		}
+	*/
+	}
+	
+	.post-separator{
+		border:none;
+		border-top: 1px solid #DBD4D4;
+		border-bottom: 1px solid #DBD4D4;
 	}	
 }
 

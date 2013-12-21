@@ -1,0 +1,13 @@
+
+$include-html-classes: false;
+@import "foundation_and_overrides";
+
+.intro-name{
+	h1{
+		border-bottom: 1px solid;
+	}
+}
+
+.intro-desc{
+	border-bottom: 1px solid;
+}

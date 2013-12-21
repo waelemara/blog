@@ -3,7 +3,8 @@ $include-html-classes: false;
 @import "foundation_and_overrides";
 //EAEAEA
 body{
-	background-color:#E8F5F0;
+	//background-color:#E8F5F0;
+	background: #f0efe7 url(/images/bg/body.jpg);
 }
 
 .title-area{
@@ -15,9 +16,11 @@ body{
 }
 
 .top-bar{
-	margin : emCalc(20px);
-	margin-top : emCalc(10px);
-	border-radius : emCalc(20px);
+	//margin : emCalc(20px);
+	//margin-top : emCalc(10px);
+	border-bottom-left-radius : emCalc(20px);
+	border-bottom-right-radius : emCalc(20px);
+	margin : emCalc(0px) emCalc(10px) emCalc(0px) emCalc(10px);
 	.top-bar-section{
 		.right{
 			margin-right : emCalc(120px);
@@ -40,11 +43,14 @@ footer{
 	bottom: 0px;
 	height: emCalc(50px);
 	left: 0px;
-	width: 100%;
-
+	
+	border-top-left-radius : emCalc(20px);
+	border-top-right-radius : emCalc(20px);
+	margin : emCalc(0px) emCalc(10px) emCalc(0px) emCalc(10px);
 	.row{
 		.column{
 			text-align :center;
 		}
 	}
 }
+

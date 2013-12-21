@@ -1,5 +1,23 @@
 <%= page_title "Wael Emara" %>
-
-<h1>
-	hoppa test style
-</h1>
+<div class="row">
+	<div class="large-12 intro-name columns">
+		<h1 class="text-left">
+			Wael Emara
+		</h1>
+	</div>
+	<div class="large-12 intro-desc columns">
+		<p class="text-justify">
+			Hi , I'm Wael , I have been working as a software developer since 2008 working mainly with Microsoft technologies
+			Starting from C# on Console & Windows Applications to Asp.Net Web forms and MVC for Web Applications
+			along side i work with JavaScript and CSS ,
+			Lately i started doing some web programming using open source languages like PHP and Ruby
+			, I love exploring new technologies even if they are out of my comfort zone so i do mobile using Windows Phone and Android
+			<a href="/cv">Learn more</a>  
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="large12 columns  posts-container">
+		<%= render :partial => "posts/posts" , :locals => {'posts' => @posts} %>
+	</div>
+</div>
