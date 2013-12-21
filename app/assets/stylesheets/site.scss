@@ -1,56 +1,27 @@
 
 $include-html-classes: false;
 @import "foundation_and_overrides";
-//EAEAEA
-body{
-	//background-color:#E8F5F0;
-	background: #f0efe7 url(/images/bg/body.jpg);
+
+.github-icon{
+	background: url(social_icons.png)-48px;
+	height:44px;
+	width:44px;
 }
 
-.title-area{
-	.name{
-		h1{
-			margin-left : emCalc(100px);
-		}
-	}
+.linkedin-icon{
+	background: url(social_icons.png)-259px;
+	height:44px;
+	width:44px;
 }
 
-.top-bar{
-	//margin : emCalc(20px);
-	//margin-top : emCalc(10px);
-	border-bottom-left-radius : emCalc(20px);
-	border-bottom-right-radius : emCalc(20px);
-	margin : emCalc(0px) emCalc(10px) emCalc(0px) emCalc(10px);
-	.top-bar-section{
-		.right{
-			margin-right : emCalc(120px);
-			li {
-				border-left: 1px solid #57B147;
-				&:first-child{
-					border :none;
-				}
-			}
-		}
-	}
-}
-.main{
-	margin-bottom : emCalc(50px);
+.twitter-icon{
+	background: url(social_icons.png) -6px;
+	height:44px;
+	width:44px;
 }
 
-footer{
-	background-color : $topbar-bg-color;
-	position: fixed;
-	bottom: 0px;
-	height: emCalc(50px);
-	left: 0px;
-	
-	border-top-left-radius : emCalc(20px);
-	border-top-right-radius : emCalc(20px);
-	margin : emCalc(0px) emCalc(10px) emCalc(0px) emCalc(10px);
-	.row{
-		.column{
-			text-align :center;
-		}
-	}
+.facebook-icon{
+	background: url(social_icons.png) -217px;
+	height:44px;
+	width:44px;
 }
-
