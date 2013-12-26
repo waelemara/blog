@@ -3,25 +3,25 @@ $include-html-classes: false;
 @import "foundation_and_overrides";
 
 .github-icon{
-	background: url(social_icons.png)-48px;
+	background: asset-url("social_icons.png")-48px;
 	height:44px;
 	width:44px;
 }
 
 .linkedin-icon{
-	background: url(social_icons.png)-259px;
+	background: asset-url("social_icons.png")-259px;
 	height:44px;
 	width:44px;
 }
 
 .twitter-icon{
-	background: url(social_icons.png) -6px;
+	background: asset-url("social_icons.png") -6px;
 	height:44px;
 	width:44px;
 }
 
 .facebook-icon{
-	background: url(social_icons.png) -217px;
+	background: asset-url("social_icons.png") -217px;
 	height:44px;
 	width:44px;
 }
