@@ -3,13 +3,13 @@ $include-html-classes: false;
 @import "foundation_and_overrides";
 
 .github-icon{
-	background: asset-url("social_icons.png")-48px;
+	background: asset-url("social_icons.png") -48px;
 	height:44px;
 	width:44px;
 }
 
 .linkedin-icon{
-	background: asset-url("social_icons.png")-259px;
+	background: asset-url("social_icons.png") -259px;
 	height:44px;
 	width:44px;
 }
