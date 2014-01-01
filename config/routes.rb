@@ -1,4 +1,5 @@
 Myblog::Application.routes.draw do
+
   resources :posts
   resources :tags
   # The priority is based upon order of creation: first created -> highest priority.
@@ -15,7 +16,7 @@ Myblog::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-  
+  get ':controller/:action'
   match ':controller(/:action(/:id(.:format)))' , via: [:get , :post]
   # Example resource route with options:
   #   resources :products do
@@ -56,4 +57,5 @@ Myblog::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
 end

@@ -14,10 +14,6 @@
 //= require jquery_ujs
 //= require foundation
 //= require turbolinks
-//= require_tree ./../../../vendor/assets/javascripts
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
-
-
-SyntaxHighlighter.all()

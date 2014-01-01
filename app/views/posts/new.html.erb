@@ -11,7 +11,7 @@
 		<div class="large-12 column">
 			<%= p.label :tags %>
 			<% Tag.all.each do |t|%>
-				<%= check_box("tag","id" , {:multiple => true} , t.id ,t.name) %>
+				<%= check_box("tag","id" , {} , t.id) %>
 				<%= t.name %>
 			<% end%>
 		</div>

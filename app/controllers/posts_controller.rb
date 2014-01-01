@@ -1,5 +1,4 @@
 class PostsController < ApplicationController
-  layout 'application_admin', :only => [:new]
   before_action :set_post, only: [:show, :edit, :update, :destroy]
   
   def index
@@ -25,6 +24,9 @@ class PostsController < ApplicationController
   
   
   def show
+  end
+
+  def post1
   end
     
   private
